@@ -18,6 +18,7 @@ body {
     background: #f2f2f2;
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 
 #main {
@@ -93,7 +94,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
+    padding: 36px 0;
+    gap: 36px;
     font-size: 18px;
 }
 
@@ -103,26 +105,29 @@ a {
     font-size: 36px;
 }
 
-/* .container {
+.container {
     display: flex;
-    justify-content: space-between;
-    border: solid 2px pink;
+    gap: 48px;
+    margin-bottom: 100px;
 }
 
 .items {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
+    gap: 7px;
+    text-align: center;
+} 
 
 .box {
-    width: 300px;
-    height: 100px;
-    border: 2px solid blue;
-} */
+    width: 170px;
+    height: 150px;
+    border-radius: 6px;
+    border: 2px solid #3882F6;
+}
 
 .text {
     color: black;
+    width: 170px;
 }
 
 #quote {
